@@ -24,7 +24,6 @@ class Solution {
                 digits[index] = 0;
                 index--;
             }
-            System.out.println("index: " + index);
             digits[index] += 1; 
         } else {
             digits[high] += 1;
