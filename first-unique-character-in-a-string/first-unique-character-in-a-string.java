@@ -1,8 +1,6 @@
 class Solution {
     public int firstUniqChar(String s) {
         Map<Character, Integer> chars = new HashMap<>();
-        int pos = -1;
-        int prev = -1;
         
         for (int i = 0; i < s.length(); i++) {
             if (chars.containsKey(s.charAt(i))) {
